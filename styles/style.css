@@ -9,6 +9,9 @@
   --default-font: "Playfair Display", serif;
 }
 
+@media (max-width: 900px) {
+}
+
 h1 {
   text-align: center;
   color: var(--fourth-color);
@@ -55,17 +58,15 @@ p {
 .btn-brand-button-style {
   display: flex;
   justify-content: center;
-  width: 208px;
-  height: 67px;
+  width: 200px;
   margin: 0 auto;
   text-transform: capitalize;
-  line-height: 27px;
   background: var(--main-brand-color);
-  color: var(--fourth-color);
+  color: var(--first-color);
   border: 3px solid var(--fourth-color);
   box-shadow: var(--box-shadow);
   border-radius: 4px;
-  padding: 18px 30px;
+  padding: 10px 30px 10px;
   text-decoration: none;
   font-family: var(--main-font);
   font-weight: 800;
