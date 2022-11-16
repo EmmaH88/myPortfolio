@@ -1,0 +1,75 @@
+:root {
+  --main-brand-color: #a6acec;
+
+  --first-color: #35013f;
+
+  --second-color: #b643cd;
+
+  --third-color: #99ddcc;
+
+  --fourth-color: #ff5da2;
+
+  --box-shadow: 10px 4px 17px #a6acec;
+
+  --main-font: "Poppins", sans-serif;
+
+  --default-font: "Playfair Display", serif;
+}
+
+/*utlities*/
+.underline {
+  text-decoration: underline;
+}
+
+.main-heading {
+  width: 693px;
+  height: 128px;
+  left: calc(50% - 693px / 2 - 1.5px);
+  top: 329px;
+  color: var(--main-brand-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 128px;
+  text-transform: capitalize;
+}
+
+.btn-brand-button-style {
+  display: flex;
+  justify-content: space-evenly;
+  width: 108px;
+  height: 27px;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 27px;
+  background: var(--main-brand-color);
+  color: var(--first-color);
+  border: 3px solid var(--third-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 40px;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-family: var(--main-font);
+}
+
+.btn-brand-button-style:hover {
+  text-decoration: underline;
+}
+
+h1 {
+}
+
+.container-homepage {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-about-page {
+}
+
+.container-work-page {
+}
+
+.container-contact-page {
+}
