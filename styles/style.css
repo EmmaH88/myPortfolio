@@ -63,11 +63,12 @@ p {
 }
 
 footer {
-  font-size: 22px;
+  font-size: 12px;
   font-family: var(--default-font);
   display: flex;
   justify-content: center;
   letter-spacing: 0.1em;
+  text-transform: capitalize;
 }
 
 .btn-brand-button-style {
