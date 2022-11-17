@@ -49,7 +49,7 @@ h6 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 37px;
 }
 
 p {
@@ -137,13 +137,40 @@ footer {
 }
 
 .content-container {
-  max-width: 1440px;
+  display: flex;
+  justify-content: center;
   border: 3px solid var(--main-brand-color);
   border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .content-container img {
   max-width: 100%;
   border-radius: 20px;
   border: 5px solid var(--third-color);
+}
+
+.about-page {
+  font-size: 50px;
+}
+
+.content-container-work {
+  margin: 30px;
+  height: 120px;
+  padding: 30px 40px;
+  margin: 0 auto;
+  border: 3px solid var(--first-color);
+}
+
+.content-container-work h6 {
+  font-family: var(--default-font);
+  font-size: 50px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.content-container-work img {
+  width: 560px;
+  height: 560px;
 }
