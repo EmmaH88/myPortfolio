@@ -55,7 +55,6 @@ h4 {
 p {
   color: var(--first-color);
   text-align: center;
-  text-transform: capitalize;
   font-size: 18px;
   line-height: 27px;
   font-family: var(--main-font);
