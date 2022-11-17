@@ -157,8 +157,8 @@ footer {
 
 .content-container-work {
   margin: 30px;
-  height: 120px;
-  padding: 30px 40px;
+  height: 100px;
+  padding: 20px;
   margin: 0 auto;
   border: 3px solid var(--first-color);
 }
