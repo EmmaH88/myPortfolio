@@ -52,6 +52,14 @@ h6 {
   line-height: 37px;
 }
 
+h6 {
+  font-family: var(--main-font);
+  font-size: 30px;
+  margin: 0 auto;
+  padding: 0 auto;
+  line-height: normal;
+}
+
 p {
   color: var(--first-color);
   text-align: center;
@@ -86,7 +94,8 @@ footer {
   padding: 10px 30px 10px;
   text-decoration: none;
   font-family: var(--main-font);
-  font-weight: 800;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .btn-brand-button-style:hover {
@@ -143,9 +152,10 @@ footer {
   border: 3px solid var(--main-brand-color);
   border-radius: 20px;
   text-align: center;
-  margin: 0 auto;
 }
-
+.content-container h2 {
+  text-align: center;
+}
 .content-container img {
   max-width: 100%;
   border-radius: 20px;
