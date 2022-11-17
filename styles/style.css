@@ -9,12 +9,16 @@
   --default-font: "Playfair Display", serif;
 }
 
+body {
+  background: var(--third-color);
+}
+
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
-  font-weight: 700;
-  font-style: normal;
-  color: var(--fourth-color);
+  font-weight: 400;
+  color: var(--first-color);
   text-decoration: underline;
   text-transform: capitalize;
 }
@@ -35,13 +39,9 @@ h3 {
   font-size: 24px;
   line-height: 36px;
   text-transform: capitalize;
-  color: var(--fourth-color);
 }
 
-h3,
-h4,
-h5,
-h6 {
+h4 {
   text-align: center;
   text-decoration: underline;
   font-family: var(--main-font);
@@ -50,14 +50,6 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 37px;
-}
-
-h6 {
-  font-family: var(--main-font);
-  font-size: 30px;
-  margin: 0 auto;
-  padding: 0 auto;
-  line-height: normal;
 }
 
 p {
@@ -167,13 +159,11 @@ footer {
   border-radius: 20px;
   text-align: center;
 }
-.content-container h2 {
-  text-align: center;
-}
+
 .content-container img {
   max-width: 100%;
   border-radius: 20px;
-  border: 5px solid var(--third-color);
+  border: 5px solid var(--fourth-color);
 }
 
 .about-page {
@@ -206,7 +196,9 @@ footer {
 }
 
 .socials a {
-  color: var(--third-color);
+  color: var(--first-color);
   background: var(--fourth-color);
   font-size: 20px;
+  margin-top: 5px;
+  padding: 7px;
 }
